@@ -1,0 +1,16 @@
+.container {
+  max-width: 800px;
+}
+
+.gist-meta {
+  text-align: center !important;
+}
+
+@media (max-width: 480px) {
+  .p-5 {
+    padding: 20px 0 !important;
+  }
+  .gist .gist-file {
+    border: none !important;
+  }
+}
